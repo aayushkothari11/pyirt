@@ -9,7 +9,7 @@ def irt(data_src,
         theta_bnds=[0, 1], num_theta=11,
         alpha_bnds=[0.1, 5], beta_bnds=[0, 10], in_guess_param={},
         model_spec='2PL',
-        max_iter=1000, tol=1e-2, nargout=2,
+        max_iter=1000, tol=1e-4, nargout=2,
         is_parallel=False, num_cpu=6, check_interval=60,
         mode='debug', log_path=None):
 
